@@ -12,7 +12,8 @@
 <img src="https://octodex.github.com/images/octobiwan.jpg" id="octocat" alt="" />
 
 <p>
-<?php echo gethostname(); ?><br> This server is now one with the force!!!
+<?php echo $_SERVER['SERVER_ADDR']; ?> | <?php echo php_uname('n'); ?>
+<br> This server is now one with the force!!!
 </p>
 
 </body>
