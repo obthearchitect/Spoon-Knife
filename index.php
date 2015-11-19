@@ -13,7 +13,7 @@
 
 <p>
 <?php echo $_SERVER['SERVER_ADDR']; ?> | <?php echo php_uname('n'); ?>
-<br> This server is now one with the force!!!
+<br>Hello World! This server is now one with the force!!!
 </p>
 
 </body>
